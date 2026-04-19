@@ -110,3 +110,5 @@ psql -U postgres -f database/init.sql
 - `GET /api/dashboard/home`
 - `GET /api/dashboard/points-table`
 - `GET /api/dashboard/live-match`
+
+# TPL-website
