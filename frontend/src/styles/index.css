@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(1000px 400px at 20% -10%, rgba(239, 68, 68, 0.18), transparent),
+    radial-gradient(1000px 400px at 100% 0%, rgba(251, 146, 60, 0.12), transparent),
+    #070b14;
+  font-family: "Rajdhani", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.panel {
+  @apply rounded-2xl border border-slate-700/70 bg-panel p-5;
+}
